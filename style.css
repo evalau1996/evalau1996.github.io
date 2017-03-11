@@ -3,8 +3,24 @@ a:hover {
     color: red;
 }
 
-
+.page-header {
+    background-color: lightyellow;
 }
+
+.interests {
+    background-color: mediumspringgreen;
+}
+
+.homework {
+    text-align: center;
+    background-color: lightslategrey;
+}
+
+.skill {
+    text-align: center;
+    background-color: navajowhite;
+}
+
 ul {
     font-family: Arial, Helvetica, sans-serif;
 }
