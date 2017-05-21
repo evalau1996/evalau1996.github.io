@@ -1,24 +1,63 @@
-a:hover {
-    text-decoration: none;
-    color: red;
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    border: 2px dashed rgba(0, 0, 0, 0.3);
+    margin: 2px;
+    padding: 2px;
 }
 
 .page-header {
     background-color: lightyellow;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    border-color: saddlebrown;
+    text-align: right;
+    padding-right: 12px;
+    margin: auto;
 }
 
-.interests {
-    background-color: mediumspringgreen;
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .homework {
     text-align: center;
-    background-color: lightslategrey;
+    background-color: lightgray;
+    border-style: double;
+    border-width: medium;
+    border-radius: 15px;
+    border-color: saddlebrown;
+    padding: 12px;
+    color: blue;
+}
+
+#homework {
+    font-family: Courier, monospace;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightseagreen;
 }
 
 .skill {
     text-align: center;
     background-color: navajowhite;
+    border: groove medium saddlebrown;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.interests {
+    background-color: lightpink;
+    border: inset medium saddlebrown;
+    border-radius: 15px;
+    padding: 12px;
 }
 
 ul {
