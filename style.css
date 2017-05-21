@@ -1,83 +1,82 @@
 .navigation {
     text-align: center;
+    background-color: lightseagreen;
+    border: solid 1px lightgreen;
+    border-radius: 15px;
 }
 
 .navigation li {
+    font-size: 14px;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     display: inline-block;
     margin: 0 20px;
     padding: 20px 0px;
     text-transform: uppercase;
-    border: 2px dashed rgba(0, 0, 0, 0.3);
-    margin: 2px;
+    border: 2px dotted darkslategray;
+    margin: 1px;
     padding: 2px;
 }
 
-.title {
+.Profile,
+.Education,
+.volunteer,
+.work,
+.additional {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 15px;
+    border-color: saddlebrown;
+}
+
+.Profile {
     display: inline-block;
+    width: 100%;
+    background-color: lightyellow;
 }
 
 img {
-    height: 180px;
-    width: 180px;
-    border: solid medium saddlebrown;
-    border-radius: 15px;
-    margin-left: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .page-header {
-    height: 180px;
-    width: 400px;
-    background-color: lightyellow;
-    border-style: solid;
-    border-width: medium;
-    border-radius: 10px;
-    border-color: saddlebrown;
     text-align: right;
-    padding-right: 12px;
-    margin-right: 0;
+    padding-right: 15px;
 }
 
 #name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
 }
 
-.homework {
-    text-align: center;
-    background-color: lightgray;
-    border-style: double;
-    border-width: medium;
-    border-radius: 15px;
-    border-color: saddlebrown;
-    padding: 12px;
-    color: blue;
+.Education {
+    font-family: Verdana;
+    padding-left: 15px;
+    background-color: lightgreen;
+    text-align: left;
 }
 
-#homework {
-    font-family: Courier, monospace;
+.title {
+    font-weight: 20px;
+    font-family: Georgia;
 }
 
-a:hover {
-    text-decoration: none;
-    color: lightseagreen;
+.volunteer {
+    text-align: right;
+    background-color: lightyellow;
+    padding-right: 15px;
 }
 
-.skill {
-    text-align: center;
-    background-color: navajowhite;
-    border: groove medium saddlebrown;
-    border-radius: 15px;
-    padding: 12px;
+.work {
+    padding-left: 15px;
+    background-color: lightgreen;
 }
 
-.interests {
-    background-color: lightpink;
-    border: inset medium saddlebrown;
-    border-radius: 15px;
-    padding: 12px;
-}
-
-ul {
-    font-family: Arial, Helvetica, sans-serif;
+.additional {
+    text-align: right;
+    background-color: lightyellow;
+    padding-right: 15px;
 }
